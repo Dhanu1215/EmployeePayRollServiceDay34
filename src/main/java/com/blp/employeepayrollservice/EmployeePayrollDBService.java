@@ -3,7 +3,10 @@ package com.blp.employeepayrollservice;
 import java.sql.*;
 
 public class EmployeePayrollDBService {
+
+
     public static void main(String[] args) throws SQLException {
+        //Connect with database
         String jdbcUrl="jdbc:mysql://localhost:3306/Payroll_services?useSSL=false";
         String userName="root";
         String password="root";
